@@ -1,0 +1,56 @@
+.container {
+    margin: 200px 560px;
+    perspective: 250px;
+    perspective-origin: 15% 50px;
+}
+.box {
+}
+.box div {
+    position: absolute;
+	width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.front {
+    background: rgba(255, 0, 0, .5);
+    transform: translateZ(50px);
+}
+
+.back {
+    background: rgba(255, 128, 0, .5);
+    transform: translateZ(-50px) rotateY(180deg);
+}
+
+.left {
+    background: rgba(0, 255, 0, .5);
+    transform: rotateY(270deg) translateX(-50px);
+}
+
+.right{
+    background: rgba(0, 0, 255, .5);
+    transform: rotateY(-270deg) translateX(50px);
+}
+
+.top {
+    background: rgba(128, 0, 255, .5);
+    transform: rotateX(-90deg) translateY(-50px);
+}
+
+.bottom {
+    background: rgba(255, 255, 0, .5);
+    transform: rotateX(90deg) translateY(50px);
+}
+figure {
+    margin: 0;
+}
+.sphere {
+    position: absolute;
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;  
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+  }
+
+@keyframes spin {
+}

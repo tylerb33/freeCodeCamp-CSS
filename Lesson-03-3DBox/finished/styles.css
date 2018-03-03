@@ -1,0 +1,79 @@
+.container {
+    margin: 200px 560px;
+    perspective: 250px;
+    perspective-origin: 15% 50px;
+}
+.box {
+    position: relative;
+    width: 100px;
+    transform-style: preserve-3d;
+    animation: spin 10s infinite linear;
+
+}
+.box div {
+    position: absolute;
+	width: 100px;
+	height: 100px;
+}
+.front {
+    background: rgba(255, 0, 0, .5);
+    text-align: center;
+    line-height: 100px;
+    transform: translateZ(50px);
+}
+
+.back {
+    background: rgba(255, 128, 0, .5);
+    text-align: center;
+    line-height: 100px;
+    transform: translateZ(-50px) rotateY(180deg);
+}
+
+.left {
+    background: rgba(0, 255, 0, .5);
+    text-align: center;
+    line-height: 100px;
+    transform: rotateY(270deg) translateX(-50px);
+	transform-origin: center left;
+}
+
+.right{
+    background: rgba(0, 0, 255, .5);
+    text-align: center;
+    line-height: 100px;
+    transform: rotateY(-270deg) translateX(50px);
+	transform-origin: top right;}
+
+.top {
+    background: rgba(128, 0, 255, .5);
+    text-align: center;
+    line-height: 100px;
+    transform: rotateX(-90deg) translateY(-50px);
+	transform-origin: top center;
+}
+
+.bottom {
+    background: rgba(255, 255, 0, .5);
+    text-align: center;
+    line-height: 100px;
+    transform: rotateX(90deg) translateY(50px);
+	transform-origin: bottom center;
+}
+figure {
+    margin: 0;
+}
+.sphere {
+    position: absolute;
+    background: black;
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;  
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+    animation: spin 10s reverse infinite linear;
+    
+  }
+
+@keyframes spin {
+	from { transform: rotateY(0); }
+	to { transform: rotateY(360deg); }
+}

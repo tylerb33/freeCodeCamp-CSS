@@ -1,0 +1,110 @@
+.container {
+    margin-bottom: 200px;
+}
+.background {
+    margin: 0 auto;
+    background-color: slategray;
+}
+.translate {
+    width: 150px;
+    height: 150px;
+    background: orange;
+    line-height: 150px;
+    text-align: center;
+}
+.translateXY {
+    transform: translate(200px, -100px);
+}
+
+.translateX {
+    transform: translateX(100px);
+}
+
+.translateY {
+    transform: translateY(50px);
+}
+.translateZ {
+    margin: 0 auto;
+    transform: perspective(500px) translateZ(100px);
+}
+
+.translate3D {
+    transform: perspective(500px) translate3d(50px, 50px, 150px);
+}
+
+.rotate {
+    width: 150px;
+    height: 150px;
+    background: lightseagreen;
+    line-height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rotateX {
+
+    animation: rotX 3s linear 0s infinite normal none;
+}
+
+.rotateY {
+
+    animation: rotY 3s linear 0s infinite normal none;
+}
+.rotateZ {
+    animation: rotZ 3s linear 0s infinite normal none;
+}
+
+
+@keyframes rotX {
+    from{transform: rotateX(0deg)}
+    to{transform: rotateX(359deg)}
+}
+
+@keyframes rotY {
+    from{transform: rotateY(0deg)}
+    to{transform: rotateY(359deg)}
+}
+
+@keyframes rotZ {
+    from{transform: rotateZ(0deg)}
+    to{transform: rotateZ(359deg)}
+}
+
+.scale {
+    width: 150px;
+    height: 150px;
+    background: darkkhaki;
+    line-height: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.scaleX {
+
+    animation: scaleX 3s linear 0s infinite normal none;
+}
+
+.scaleY {
+
+    animation: scaleY 3s linear 0s infinite normal none;
+}
+.scaleXY {
+    margin: 50px auto;
+    animation: scaleXY 3s linear 0s infinite normal none;
+}
+
+
+@keyframes scaleX {
+    from{transform: scaleX(0)}
+    to{transform: scaleX(1)}
+}
+
+@keyframes scaleY {
+    from{transform: scaleY(0)}
+    to{transform: scaleY(1)}
+}
+
+@keyframes scaleXY {
+    from{transform: scale(0, 0)}
+    to{transform: scale(1.5)}
+}

@@ -1,0 +1,33 @@
+.background {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: slategray;
+    text-align: center;
+    line-height: 300px;
+}
+
+.stamped {
+    font-size: 3em;
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 2px 1px #8396a8;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.embossed {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.3;
+    color: slategray;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+}
+
+.threeDee {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}

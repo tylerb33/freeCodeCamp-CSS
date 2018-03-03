@@ -1,0 +1,67 @@
+.container {
+    border: 2px solid grey;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0;
+}
+.stage {
+    margin: 50px auto;
+}
+
+.panel {
+    width: 180px;
+    height: 70px;
+    margin: 0 150px;
+    background: rgb(119, 136, 153);
+}
+
+.movingText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+@keyframes slideRight {
+
+}
+
+@keyframes textBlur {
+
+}
+
+
+/* Reveal Scale In */
+.newStage {
+    width: 100%;
+    height: 900px;
+    margin: 50px auto;
+    z-index: -3;
+}
+.pane {
+    width: 800px;
+    height: 600px;
+    background: white;
+    position: relative;
+    left: 400px;
+    top: 196px;
+    animation-name: panelDrop;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.backWall {
+    width: 800px;
+    height: 600px;
+    background: lightslategray;
+}
+
+.textReveal {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+   }
+
+@keyframes panelDrop {
+
+}

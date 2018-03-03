@@ -1,0 +1,26 @@
+.background {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: slategray;
+    text-align: center;
+    line-height: 300px;
+}
+
+.stamped {
+    font-size: 3em;
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.embossed {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.threeDee {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
