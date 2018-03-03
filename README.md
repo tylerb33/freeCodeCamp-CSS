@@ -1,21 +1,29 @@
 # FreeCodeCamp-CSS-Talk
 ## Lesson 01 Text Effects
-STAMPED LETTERING
-	TEXT SHADOW
-		right 1px down 2px blur 1 px color 10% brighter than the background color;
-		    text-shadow: 1px 2px 1px #8396a8;
-	COLOR RGBA
-		Black color with an opacity of .25
-		color: rgba(0, 0, 0, 0.25);
+    STAMPED LETTERING
+        TEXT SHADOW
+            right 1px down 2px blur 1 px color 10% brighter than the background color;
+                text-shadow: 1px 2px 1px #8396a8;
+        COLOR RGBA
+            Black color with an opacity of .25
+            color: rgba(0, 0, 0, 0.25);
 
-EMBOSSED LETTERING
-	opacity: 0.3;
-	Same color as background
-		color: slategray;
-	Shadow: Left 1 | Up 1 | Blur 1 | color white 
-		comma for the next set of values
-			Right 1 | Down 1 | Blur 1 | color black
-		    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    EMBOSSED LETTERING
+        opacity: 0.3;
+        Same color as background
+            color: slategray;
+        Shadow: Left 1 | Up 1 | Blur 1 | color white 
+            comma for the next set of values
+                Right 1 | Down 1 | Blur 1 | color black
+                text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    3D Lettering
+        Multiple Text Shadows for 3D lettering effect
+            text-shadow: 0px 1px 0px #999,
+                         0px 2px 0px #888, 0px 3px 0px #777, 
+                         0px 4px 0px #666, 0px 5px 0px #555, 
+                         0px 6px 0px #444, 0px 7px 0px #333, 
+                         0px 8px 7px #001135;
+
 
 ## Lesson 02 Animated CSS Part 1
     Transform properties affects the appearance of an element on screen.
