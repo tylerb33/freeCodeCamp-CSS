@@ -1,4 +1,4 @@
-# FreeCodeCamp-CSS-Talk
+# FreeCodeCamp-CSS-Talk - a Talk by [Austin Kurtis](https://github.com/austinKurtis)
 ## Lesson 01 Text Effects
     STAMPED LETTERING
         TEXT SHADOW
