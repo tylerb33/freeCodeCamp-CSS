@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 70px;
     margin: 0 150px;
     background: rgb(119, 136, 153);
+    animation-name: slideRight;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
 }
 
 .movingText {
@@ -22,7 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes slideRight {
-
+    0% {transform: translate(0, 0);
+        box-shadow: 0 0 0 rgba(119, 136, 153,0);}
+    25% {box-shadow: -8px 0 4px 0px rgba(119, 136, 153,1);}
+    100% {transform: translate(600px, 0);
+          box-shadow: 0 0 0 rgba(119, 136, 153,0);}
 }
 
 @keyframes textBlur {
